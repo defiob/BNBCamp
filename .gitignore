@@ -2,5 +2,7 @@ node_modules
 artifacts
 cache
 .env
+.idea
 .deps
 .vscode
+typechain-types
