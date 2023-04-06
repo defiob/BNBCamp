@@ -11,3 +11,9 @@ logic2 deploy hash: [0x931334de37b5f7816a7373a6eb1785c8f5baf4c797639da59f51d2290
 ## Logic Address
 Logic1: [0x8Cc06090c99A2FB40098e717663BA239F33ECF84](https://testnet.bscscan.com/address/0x8Cc06090c99A2FB40098e717663BA239F33ECF84)  
 Logic2: [0x24cB9928540107f345230e561C6b017Bd9037c45](https://testnet.bscscan.com/address/0x24cB9928540107f345230e561C6b017Bd9037c45)
+
+# Contract Verify
+`npx hardhat verify --network bnbtest 0x8Cc06090c99A2FB40098e717663BA239F33ECF84 --contract contracts/Logic1.sol:Logic1`  
+`npx hardhat verify --network bnbtest 0x24cB9928540107f345230e561C6b017Bd9037c45 --contract contracts/Logic2.sol:Logic2`  
+`npx hardhat verify --network bnbtest 0xB7AAa9C48709081Cf74adB52C1920243E71EB169 --contract contracts/MyProxyAdmin.sol:MyProxyAdmin`  
+`npx hardhat verify --network bnbtest 0xE104A7C0478dFEc41ad7BD59D244118C354173ab --contract contracts/MyProxy.sol:MyProxy`  
